@@ -26,9 +26,14 @@
     $('.submit-repo-btn').click(function() {
       return readUrlYo($(txtRepoUrl).val());
     });
-    return showLoader = function() {
+    showLoader = function() {
       return console.log('todo');
     };
+    return $('#get-started-btn').click(function() {
+      return $('html, body').animate({
+        scrollTop: $('.getting-started').offset().top
+      }, 1000);
+    });
   });
 
 }).call(this);

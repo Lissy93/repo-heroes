@@ -17,3 +17,7 @@ $(document).ready ->
     console.log 'todo'
     # TODO: Implement a loading graphic
 
+
+  # Scroll down on homepage
+  $('#get-started-btn').click ->
+    $('html, body').animate {scrollTop: $('.getting-started').offset().top},1000
