@@ -3,6 +3,7 @@
   margin: 0;
   padding: 5%;
   height: 100%;
+  min-height: 630px;
 
   h1, h2{
     color: #FFF;
@@ -15,12 +16,56 @@
   .btn-large{
     margin-top: 2em;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .lightening-logo{
     display: inline-block;
     width: 12em;
+  }
+}
+
+.getting-started{
+  margin: 0;
+  height: 100%;
+  min-height: 630px;
+
+  h3{
+    font-size: 2em;
+    font-weight: 200;
+    text-align: center;
+    cursor: default;
+  }
+
+  .submit-repo-btn{
+    width: 100%;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+  }
+
+  .middle{
+    margin-top: 10%
+  }
+
+}
+
+
+.results{
+  background: #262D4E;
+  min-height:100%;
+  padding: 2%;
+
+  h1, h2{
+    color: #FFF;
+    font-weight: 200;
+  }
+  h1{ font-size: 5em; }
+  h2{ font-size: 2.5em; }
+
+  .lightening-logo{
+    width: 60%;
+    display: block;
+    margin: 10px auto;
   }
 }
 

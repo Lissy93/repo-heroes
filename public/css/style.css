@@ -2,7 +2,8 @@
   background: #262D4E;
   margin: 0;
   padding: 5%;
-  height: 100%; }
+  height: 100%;
+  min-height: 630px; }
   .main h1, .main h2 {
     color: #FFF;
     font-weight: 200; }
@@ -13,10 +14,42 @@
   .main .btn-large {
     margin-top: 2em;
     font-weight: 400;
-    font-size: 2em; }
+    font-size: 1.5em; }
   .main .lightening-logo {
     display: inline-block;
     width: 12em; }
+
+.getting-started {
+  margin: 0;
+  height: 100%;
+  min-height: 630px; }
+  .getting-started h3 {
+    font-size: 2em;
+    font-weight: 200;
+    text-align: center;
+    cursor: default; }
+  .getting-started .submit-repo-btn {
+    width: 100%;
+    margin-bottom: 1.5em;
+    font-size: 1.5em; }
+  .getting-started .middle {
+    margin-top: 10%; }
+
+.results {
+  background: #262D4E;
+  min-height: 100%;
+  padding: 2%; }
+  .results h1, .results h2 {
+    color: #FFF;
+    font-weight: 200; }
+  .results h1 {
+    font-size: 5em; }
+  .results h2 {
+    font-size: 2.5em; }
+  .results .lightening-logo {
+    width: 60%;
+    display: block;
+    margin: 10px auto; }
 
 html, body {
   height: 100%; }
