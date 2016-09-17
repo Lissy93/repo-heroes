@@ -8,20 +8,20 @@ config =
     app:
       name: 'productivity-measurer'
     port: 3000
-    db: 'mongodb://localhost/productivity-measurer-development'
+    db: 'mongodb://localhost/productivity-measurer'
 
   test:
     root: rootPath
     app:
       name: 'productivity-measurer'
     port: 3000
-    db: 'mongodb://localhost/productivity-measurer-test'
+    db: 'mongodb://localhost/productivity-measurer'
 
   production:
     root: rootPath
     app:
       name: 'productivity-measurer'
     port: 3000
-    db: 'mongodb://localhost/productivity-measurer-production'
+    db: 'mongodb://localhost/productivity-measurer'
 
 module.exports = config[env]
