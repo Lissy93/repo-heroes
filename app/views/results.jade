@@ -1,10 +1,15 @@
 extends layout
 
 block content
-    .results
+    .results.grey.lighten-2
         .row
-            .col.s12.m3
+            .col.s12.m3.side-title.z-depth-2
                 h1.center= title
                 h2.center=subtitle
                 img.lightening-logo(src='/img/zap.svg')
-                p= repoId
+
+                .repoStats
+                    h3 Repo Stats
+                    p.white-text= repoId
+
+                a.waves-ripple.waves-light.white-text.btn.orange(href='/') Back to Home

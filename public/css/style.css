@@ -36,16 +36,32 @@
     margin-top: 10%; }
 
 .results {
-  background: #262D4E;
   min-height: 100%;
-  padding: 2%; }
-  .results h1, .results h2 {
+  padding: 0; }
+  .results .side-title {
+    background: #262D4E;
+    height: 100%;
+    margin: 0;
+    position: fixed; }
+  .results h1, .results h2, .results h3 {
     color: #FFF;
     font-weight: 200; }
   .results h1 {
     font-size: 5em; }
   .results h2 {
     font-size: 2.5em; }
+  .results h3 {
+    font-size: 1.5em; }
+  .results a {
+    background: #ff9800; }
+  .results .repoStats {
+    border: 2px solid orange;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+    box-shadow: 5px 5px #191d33;
+    background: rgba(255, 255, 255, 0.1); }
   .results .lightening-logo {
     width: 60%;
     display: block;
