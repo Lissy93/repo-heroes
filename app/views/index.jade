@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+  .main.center
+    img.lightening-logo(src='/img/zap.svg')
+
+    h1= title
+    h2=subtitle
+
+    a.waves-effect.waves-light.btn-large.orange.white-text Get Started
