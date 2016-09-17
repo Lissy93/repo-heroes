@@ -16,11 +16,13 @@ block content
         .col.s12.m10.offset-m1.l8.offset-l2.card-panel.middle
             h3 Enter the URL of your GitHub repo
             .col.s12.input-field
-              input#repoUrl.validate(type='url', name='repoUrl', placeholder='e.g. https://github.com/lissy93/shocking-code')
+              input#repoUrl.validate(type='url', name='repoUrl', placeholder='e.g. https://github.com/lissy93/repo-heroes')
               label(for='repoUrl')
               small.red-text#invalid-url(style='display:none;') Error: Invalid GitHub URL
-            .col.s3.offset-s9
-              a.submit-repo-btn.waves-effect.waves-light.btn.indigo.darken-4.white-text Go!
+            .col.s6.offset-s3
+              a.submit-repo-btn.waves-effect.waves-light.btn.indigo.darken-4.white-text Identify Heroes!
+
+    .more-heroes.pin-bottom
 
 block scripts
   script(src='/js/page-actions.js')

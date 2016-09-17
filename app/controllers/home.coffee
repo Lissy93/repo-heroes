@@ -10,6 +10,5 @@ router.get '/', (req, res, next) ->
   Article.find (err, articles) ->
     return next(err) if err
     res.render 'index',
-      title: 'Shocking Code'
-      subtitle: 'Zap the slackers in your project!'
-      articles: articles
+      title: 'Repo Heroes'
+      subtitle: 'GitHub Repository Contributor Leaderboard'
